@@ -10,16 +10,20 @@
         <h1 class="text-center">Crypter votre message à l'aide d'une de nos images</h1>
         <h1 class="text-center">Choissisez une catégorie d'image </h1>
         <div class="image-container mt-5">
+			<p> foot </p>
             <img src="{% static '' %}" alt="Foot" height="300px" width="500px">
         </div>
         <div class="image-container mt-5">
             <img src="{% static '' %}" alt="Nature" height="300px" width="500px">
+			<p> nature </p>
         </div>
         <div class="image-container mt-5">
             <img src="{% static '' %}" alt="Informatique" height="300px" width="500px">
+			<p> informatique </p>
         </div>
         <div class="image-container mt-5">
             <img src="{% static '' %}" alt="Gastronomie" height="300px" width="500px">
+			<p> gastronomie </p>
         </div>
         <form action="{% url 'encryption' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}

@@ -6,7 +6,10 @@
 </head>
 <body>
 {% include "navbar.html" %}
-<h1> Votre message a été encrypté </h1>
+<h1> Votre message a été encrypté dans l'image suivante : </h1>
+<div class="image-container mt-5">
+        <img src="{{image_link}}" alt="Encrypted Image" height="300px" width="500px"/>
+</div>
 <p>
     Télécharger votre image en cliquant sur le lien ci-dessous :
     <a href="{{image_link}}" class="btn btn-danger button-link" download>Télécharger</a>
