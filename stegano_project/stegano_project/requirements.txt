@@ -2,7 +2,7 @@ altgraph==0.17.4
 asgiref==3.7.2
 cachetools==5.3.2
 distlib==0.3.8
-Django==5.0
+Django==4.2.8
 filelock==3.13.1
 packaging==23.2
 pefile==2023.2.7
