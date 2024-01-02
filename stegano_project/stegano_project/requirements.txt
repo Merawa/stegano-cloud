@@ -4,12 +4,10 @@ cachetools==5.3.2
 distlib==0.3.8
 Django==4.2.8
 filelock==3.13.1
-packaging==23.2
 pefile==2023.2.7
 Pillow==10.1.0
 platformdirs==4.1.0
 python-dotenv==1.0.0
 pywin32-ctypes==0.2.2
-sqlparse==0.4.4
 stepic==0.5.0
 tzdata==2023.3
