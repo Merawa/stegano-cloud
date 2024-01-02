@@ -8,13 +8,8 @@ packaging==23.2
 pefile==2023.2.7
 Pillow==10.1.0
 platformdirs==4.1.0
-py2exe==0.13.0.1
-pygubu==0.31
-pyinstaller==6.3.0
-pyinstaller-hooks-contrib==2023.11
 python-dotenv==1.0.0
 pywin32-ctypes==0.2.2
 sqlparse==0.4.4
 stepic==0.5.0
 tzdata==2023.3
-virtualenv==20.25.0
